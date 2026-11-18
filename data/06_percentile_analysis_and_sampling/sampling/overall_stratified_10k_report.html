@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'>
+<title>Translation Quality + Overall Stratified Sampling</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 1500px;
+    margin: 30px auto;
+    padding: 0 25px 60px 25px;
+    background: #fafafa;
+    color: #222;
+    line-height: 1.5;
+}
+.info {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 22px 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+th, td {
+    padding: 9px 11px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: right;
+}
+th {
+    background: #eee;
+}
+td:first-child, th:first-child {
+    text-align: left;
+}
+code {
+    background: #eee;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+</style>
+
+</head><body>
+<h1>Translation Quality + Overall Stratified Sampling</h1>
+<div class='info'>
+<h2>Final sample</h2>
+<p><strong>Target total:</strong> 10,000</p>
+<p><strong>Reused OLD:</strong> 6,180</p>
+<p><strong>Selected NEW:</strong> 3,820</p>
+<p><strong>Final total:</strong> 10,000</p>
+<p><strong>Selection percentile:</strong> P85</p>
+<p>OLD samples are represented by their matched NEW translation rows, so the final JSONL has one consistent schema.</p>
+</div>
+<h2>Percentile analysis</h2>
+<table>
+
+<tr>
+<th>Percentile</th>
+<th>BERT</th>
+<th>COMET</th>
+<th>chrF</th>
+<th>NEW pass</th>
+<th>NEW delta</th>
+<th>OLD reusable</th>
+<th>OLD coverage %</th>
+<th>OLD delta</th>
+</tr>
+
+<tr>
+<td>P0</td>
+<td>-0.812626</td>
+<td>0.117610</td>
+<td>0.0000</td>
+<td>1,178,800</td>
+<td>—</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>P5</td>
+<td>0.396203</td>
+<td>0.483919</td>
+<td>27.5079</td>
+<td>1,165,554</td>
+<td>-13,246</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P10</td>
+<td>0.503588</td>
+<td>0.553964</td>
+<td>35.6878</td>
+<td>1,144,818</td>
+<td>-20,736</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P15</td>
+<td>0.568754</td>
+<td>0.613918</td>
+<td>41.4310</td>
+<td>1,118,924</td>
+<td>-25,894</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P20</td>
+<td>0.616382</td>
+<td>0.668160</td>
+<td>45.9598</td>
+<td>1,089,299</td>
+<td>-29,625</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P25</td>
+<td>0.654344</td>
+<td>0.713978</td>
+<td>49.8070</td>
+<td>1,055,800</td>
+<td>-33,499</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P30</td>
+<td>0.686528</td>
+<td>0.750177</td>
+<td>53.2057</td>
+<td>1,018,299</td>
+<td>-37,501</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P35</td>
+<td>0.715347</td>
+<td>0.779203</td>
+<td>56.3445</td>
+<td>976,804</td>
+<td>-41,495</td>
+<td>6,192</td>
+<td>94.650%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P40</td>
+<td>0.741212</td>
+<td>0.802444</td>
+<td>59.2392</td>
+<td>930,651</td>
+<td>-46,153</td>
+<td>6,190</td>
+<td>94.619%</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>P45</td>
+<td>0.765325</td>
+<td>0.821071</td>
+<td>61.9241</td>
+<td>879,768</td>
+<td>-50,883</td>
+<td>6,190</td>
+<td>94.619%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P50</td>
+<td>0.788086</td>
+<td>0.836144</td>
+<td>64.3719</td>
+<td>824,657</td>
+<td>-55,111</td>
+<td>6,190</td>
+<td>94.619%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P55</td>
+<td>0.809967</td>
+<td>0.848007</td>
+<td>66.8368</td>
+<td>764,487</td>
+<td>-60,170</td>
+<td>6,190</td>
+<td>94.619%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P60</td>
+<td>0.830983</td>
+<td>0.857611</td>
+<td>69.2578</td>
+<td>700,288</td>
+<td>-64,199</td>
+<td>6,189</td>
+<td>94.604%</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>P65</td>
+<td>0.851617</td>
+<td>0.865440</td>
+<td>71.7871</td>
+<td>631,900</td>
+<td>-68,388</td>
+<td>6,189</td>
+<td>94.604%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P70</td>
+<td>0.872014</td>
+<td>0.872083</td>
+<td>74.3874</td>
+<td>559,630</td>
+<td>-72,270</td>
+<td>6,187</td>
+<td>94.574%</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>P75</td>
+<td>0.892467</td>
+<td>0.877906</td>
+<td>77.1885</td>
+<td>482,723</td>
+<td>-76,907</td>
+<td>6,185</td>
+<td>94.543%</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>P80</td>
+<td>0.913754</td>
+<td>0.883139</td>
+<td>80.4065</td>
+<td>400,966</td>
+<td>-81,757</td>
+<td>6,185</td>
+<td>94.543%</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>P85</td>
+<td>0.935771</td>
+<td>0.888020</td>
+<td>84.2522</td>
+<td>313,175</td>
+<td>-87,791</td>
+<td>6,180</td>
+<td>94.467%</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>P90</td>
+<td>0.963524</td>
+<td>0.892882</td>
+<td>89.0007</td>
+<td>216,908</td>
+<td>-96,267</td>
+<td>5,373</td>
+<td>82.131%</td>
+<td>-807</td>
+</tr>
+<tr>
+<td>P95</td>
+<td>1.000000</td>
+<td>0.898780</td>
+<td>100.0000</td>
+<td>106,549</td>
+<td>-110,359</td>
+<td>2,973</td>
+<td>45.445%</td>
+<td>-2,400</td>
+</tr>
+<tr>
+<td>P100</td>
+<td>1.000001</td>
+<td>0.924996</td>
+<td>100.0000</td>
+<td>65,465</td>
+<td>-41,084</td>
+<td>2,887</td>
+<td>44.130%</td>
+<td>-86</td>
+</tr>
+</table>
+<h2>Final category distribution</h2>
+<table>
+<tr><th>Category</th><th>Count</th></tr>
+<tr><td>Criminal Planning/Confessions</td><td>1,907</td></tr>
+<tr><td>Hate/Identity Hate</td><td>1,345</td></tr>
+<tr><td>Controlled/Regulated Substances</td><td>1,344</td></tr>
+<tr><td>Harassment</td><td>1,344</td></tr>
+<tr><td>PII/Privacy</td><td>1,344</td></tr>
+<tr><td>Sexual</td><td>681</td></tr>
+<tr><td>Profanity</td><td>471</td></tr>
+<tr><td>Violence</td><td>363</td></tr>
+<tr><td>Guns/Illegal Weapons</td><td>330</td></tr>
+<tr><td>Unauthorized Advice</td><td>235</td></tr>
+<tr><td>Suicide and Self Harm</td><td>191</td></tr>
+<tr><td>Political/Misinformation/Conspiracy</td><td>147</td></tr>
+<tr><td>Fraud/Deception</td><td>104</td></tr>
+<tr><td>Copyright/Trademark/Plagiarism</td><td>43</td></tr>
+<tr><td>Malware</td><td>42</td></tr>
+<tr><td>Sexual Minor</td><td>33</td></tr>
+<tr><td>Threat</td><td>28</td></tr>
+<tr><td>Illegal Activity</td><td>22</td></tr>
+<tr><td>High Risk Gov. Decision Making</td><td>16</td></tr>
+<tr><td>Immoral/Unethical</td><td>8</td></tr>
+<tr><td>Manipulation</td><td>2</td></tr>
+</table>
+<h2>Final language distribution</h2>
+<table>
+<tr><th>NLLB code</th><th>Count</th></tr>
+<tr><td>ltz_Latn</td><td>709</td></tr>
+<tr><td>mlt_Latn</td><td>680</td></tr>
+<tr><td>ast_Latn</td><td>525</td></tr>
+<tr><td>oci_Latn</td><td>431</td></tr>
+<tr><td>ceb_Latn</td><td>407</td></tr>
+<tr><td>ory_Orya</td><td>375</td></tr>
+<tr><td>sna_Latn</td><td>337</td></tr>
+<tr><td>zul_Latn</td><td>331</td></tr>
+<tr><td>mri_Latn</td><td>311</td></tr>
+<tr><td>ckb_Arab</td><td>308</td></tr>
+<tr><td>nso_Latn</td><td>308</td></tr>
+<tr><td>tgk_Cyrl</td><td>302</td></tr>
+<tr><td>nya_Latn</td><td>243</td></tr>
+<tr><td>ibo_Latn</td><td>219</td></tr>
+<tr><td>lin_Latn</td><td>169</td></tr>
+<tr><td>yor_Latn</td><td>145</td></tr>
+<tr><td>lug_Latn</td><td>125</td></tr>
+<tr><td>wol_Latn</td><td>121</td></tr>
+<tr><td>luo_Latn</td><td>77</td></tr>
+<tr><td>fuv_Latn</td><td>65</td></tr>
+<tr><td>afr_Latn</td><td>49</td></tr>
+<tr><td>cym_Latn</td><td>49</td></tr>
+<tr><td>est_Latn</td><td>49</td></tr>
+<tr><td>hin_Deva</td><td>49</td></tr>
+<tr><td>sin_Sinh</td><td>49</td></tr>
+<tr><td>als_Latn</td><td>48</td></tr>
+<tr><td>amh_Ethi</td><td>48</td></tr>
+<tr><td>azj_Latn</td><td>48</td></tr>
+<tr><td>ben_Beng</td><td>48</td></tr>
+<tr><td>bos_Latn</td><td>48</td></tr>
+<tr><td>bul_Cyrl</td><td>48</td></tr>
+<tr><td>cat_Latn</td><td>48</td></tr>
+<tr><td>ces_Latn</td><td>48</td></tr>
+<tr><td>fin_Latn</td><td>48</td></tr>
+<tr><td>fra_Latn</td><td>48</td></tr>
+<tr><td>gle_Latn</td><td>48</td></tr>
+<tr><td>glg_Latn</td><td>48</td></tr>
+<tr><td>guj_Gujr</td><td>48</td></tr>
+<tr><td>heb_Hebr</td><td>48</td></tr>
+<tr><td>hrv_Latn</td><td>48</td></tr>
+<tr><td>hun_Latn</td><td>48</td></tr>
+<tr><td>hye_Armn</td><td>48</td></tr>
+<tr><td>isl_Latn</td><td>48</td></tr>
+<tr><td>jav_Latn</td><td>48</td></tr>
+<tr><td>kan_Knda</td><td>48</td></tr>
+<tr><td>kaz_Cyrl</td><td>48</td></tr>
+<tr><td>kir_Cyrl</td><td>48</td></tr>
+<tr><td>lit_Latn</td><td>48</td></tr>
+<tr><td>lvs_Latn</td><td>48</td></tr>
+<tr><td>mal_Mlym</td><td>48</td></tr>
+<tr><td>mar_Deva</td><td>48</td></tr>
+<tr><td>nld_Latn</td><td>48</td></tr>
+<tr><td>nob_Latn</td><td>48</td></tr>
+<tr><td>npi_Deva</td><td>48</td></tr>
+<tr><td>pan_Guru</td><td>48</td></tr>
+<tr><td>pes_Arab</td><td>48</td></tr>
+<tr><td>ron_Latn</td><td>48</td></tr>
+<tr><td>slk_Latn</td><td>48</td></tr>
+<tr><td>slv_Latn</td><td>48</td></tr>
+<tr><td>spa_Latn</td><td>48</td></tr>
+<tr><td>swe_Latn</td><td>48</td></tr>
+<tr><td>swh_Latn</td><td>48</td></tr>
+<tr><td>tam_Taml</td><td>48</td></tr>
+<tr><td>tel_Telu</td><td>48</td></tr>
+<tr><td>tgl_Latn</td><td>48</td></tr>
+<tr><td>ukr_Cyrl</td><td>48</td></tr>
+<tr><td>urd_Arab</td><td>48</td></tr>
+<tr><td>zsm_Latn</td><td>48</td></tr>
+<tr><td>arb_Arab</td><td>47</td></tr>
+<tr><td>asm_Beng</td><td>47</td></tr>
+<tr><td>bel_Cyrl</td><td>47</td></tr>
+<tr><td>dan_Latn</td><td>47</td></tr>
+<tr><td>deu_Latn</td><td>47</td></tr>
+<tr><td>ell_Grek</td><td>47</td></tr>
+<tr><td>eus_Latn</td><td>47</td></tr>
+<tr><td>gaz_Latn</td><td>47</td></tr>
+<tr><td>hau_Latn</td><td>47</td></tr>
+<tr><td>ind_Latn</td><td>47</td></tr>
+<tr><td>ita_Latn</td><td>47</td></tr>
+<tr><td>jpn_Jpan</td><td>47</td></tr>
+<tr><td>kat_Geor</td><td>47</td></tr>
+<tr><td>khk_Cyrl</td><td>47</td></tr>
+<tr><td>khm_Khmr</td><td>47</td></tr>
+<tr><td>kor_Hang</td><td>47</td></tr>
+<tr><td>lao_Laoo</td><td>47</td></tr>
+<tr><td>mkd_Cyrl</td><td>47</td></tr>
+<tr><td>mya_Mymr</td><td>47</td></tr>
+<tr><td>pbt_Arab</td><td>47</td></tr>
+<tr><td>pol_Latn</td><td>47</td></tr>
+<tr><td>por_Latn</td><td>47</td></tr>
+<tr><td>rus_Cyrl</td><td>47</td></tr>
+<tr><td>snd_Arab</td><td>47</td></tr>
+<tr><td>som_Latn</td><td>47</td></tr>
+<tr><td>srp_Cyrl</td><td>47</td></tr>
+<tr><td>tha_Thai</td><td>47</td></tr>
+<tr><td>tur_Latn</td><td>47</td></tr>
+<tr><td>vie_Latn</td><td>47</td></tr>
+<tr><td>xho_Latn</td><td>47</td></tr>
+<tr><td>zho_Hans</td><td>47</td></tr>
+<tr><td>zho_Hant</td><td>46</td></tr>
+</table>
+</body></html>

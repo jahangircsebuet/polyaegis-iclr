@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'>
+<title>Translation Quality Percentile and Old-Data Reuse Analysis</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 1650px;
+    margin: 30px auto;
+    padding: 0 25px 60px 25px;
+    background: #fafafa;
+    color: #222;
+    line-height: 1.5;
+}
+h1 { margin-bottom: 5px; }
+h2 { margin-top: 24px; }
+.subtitle { color: #555; margin-top: 0; }
+.info {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 22px 0;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 8px 30px;
+}
+.table-container {
+    overflow-x: auto;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 1400px;
+}
+th, td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: right;
+    white-space: nowrap;
+}
+th {
+    position: sticky;
+    top: 0;
+    background: #eeeeee;
+    font-weight: 650;
+    z-index: 1;
+}
+td:first-child, th:first-child { text-align: center; }
+tbody tr:hover { background: #f6f6f6; }
+.note { font-size: 14px; color: #555; }
+code { background: #eee; border-radius: 4px; padding: 2px 5px; }
+.delta { font-weight: 600; }
+.coverage { font-weight: 700; }
+</style>
+
+</head><body>
+<h1>Translation Quality Percentile and Old-Data Reuse Analysis</h1>
+<p class='subtitle'>Joint BERTScore + COMET + chrF filtering with old/new root-language overlap.</p>
+<div class='info'>
+<h2>Dataset summary</h2>
+<div class='info-grid'>
+<div><strong>New multilingual rows:</strong> 1,178,928</div>
+<div><strong>New unique root IDs:</strong> 11,788</div>
+<div><strong>Valid BERT scores:</strong> 1,178,928</div>
+<div><strong>Valid/supported COMET scores:</strong> 954,956</div>
+<div><strong>Valid chrF scores:</strong> 1,178,928</div>
+<div><strong>New rows eligible for all 3 metrics:</strong> 954,956</div>
+<div><strong>Old v1 rows:</strong> 281,652</div>
+<div><strong>Old unique root-language pairs:</strong> 281,652</div>
+<div><strong>Old unique root IDs:</strong> 2,874</div>
+<div><strong>Old root IDs found in new corpus:</strong> 2,789</div>
+<div><strong>Exact old/new root-language matches:</strong> 270,533</div>
+<div><strong>Matched old pairs eligible for all 3 metrics:</strong> 217,542</div>
+<div><strong>Percentile step:</strong> 5</div>
+</div>
+
+<p class='note'><strong>New sample retained:</strong> a NEW translation must have valid BERTScore-F1, supported COMET, and chrF, and must pass all three thresholds shown in that percentile row.</p>
+<p class='note'><strong>Root-language matching:</strong> OLD and NEW records are joined using <code>(root_id, nllb_code)</code>. The NEW quality scores are used for the matched OLD sample.</p>
+<p class='note'><strong>Old data covered %:</strong> <code>Old/New root-language overlap / all unique OLD (root_id, nllb_code)</code>. This directly shows what fraction of v1 can be reused.</p>
+<p class='note'><strong>Delta sample/percentile:</strong> current retained count minus previous percentile-row count. Negative values indicate samples lost at the stricter quality gate.</p>
+
+</div>
+<div class='table-container'>
+<table>
+
+<thead>
+<tr>
+    <th>Percentile</th>
+    <th>BERTScore-F1 threshold</th>
+    <th>COMET threshold</th>
+    <th>chrF threshold</th>
+    <th>New samples retained</th>
+    <th>New retention %</th>
+    <th>Delta sample/percentile</th>
+    <th>Old/New root-language overlap</th>
+    <th>Old data covered %</th>
+    <th>Overlap delta/percentile</th>
+    <th>Old eligible retention %</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>P0</td>
+<td>-0.812626</td>
+<td>0.117610</td>
+<td>0.000000</td>
+<td>954,956</td>
+<td>100.000%</td>
+<td class='delta'>—</td>
+<td>217,542</td>
+<td class='coverage'>77.238%</td>
+<td class='delta'>—</td>
+<td>100.000%</td>
+</tr>
+<tr>
+<td>P5</td>
+<td>0.396216</td>
+<td>0.483922</td>
+<td>27.508399</td>
+<td>855,602</td>
+<td>89.596%</td>
+<td class='delta'>-99,354</td>
+<td>197,492</td>
+<td class='coverage'>70.119%</td>
+<td class='delta'>-20,050</td>
+<td>90.783%</td>
+</tr>
+<tr>
+<td>P10</td>
+<td>0.503597</td>
+<td>0.553971</td>
+<td>35.689132</td>
+<td>768,908</td>
+<td>80.518%</td>
+<td class='delta'>-86,694</td>
+<td>180,266</td>
+<td class='coverage'>64.003%</td>
+<td class='delta'>-17,226</td>
+<td>82.865%</td>
+</tr>
+<tr>
+<td>P15</td>
+<td>0.568763</td>
+<td>0.613923</td>
+<td>41.431368</td>
+<td>689,277</td>
+<td>72.179%</td>
+<td class='delta'>-79,631</td>
+<td>164,115</td>
+<td class='coverage'>58.269%</td>
+<td class='delta'>-16,151</td>
+<td>75.441%</td>
+</tr>
+<tr>
+<td>P20</td>
+<td>0.616390</td>
+<td>0.668167</td>
+<td>45.960909</td>
+<td>615,210</td>
+<td>64.423%</td>
+<td class='delta'>-74,067</td>
+<td>147,928</td>
+<td class='coverage'>52.522%</td>
+<td class='delta'>-16,187</td>
+<td>68.000%</td>
+</tr>
+<tr>
+<td>P25</td>
+<td>0.654357</td>
+<td>0.713985</td>
+<td>49.807419</td>
+<td>546,464</td>
+<td>57.224%</td>
+<td class='delta'>-68,746</td>
+<td>132,414</td>
+<td class='coverage'>47.013%</td>
+<td class='delta'>-15,514</td>
+<td>60.868%</td>
+</tr>
+<tr>
+<td>P30</td>
+<td>0.686535</td>
+<td>0.750183</td>
+<td>53.206505</td>
+<td>482,980</td>
+<td>50.576%</td>
+<td class='delta'>-63,484</td>
+<td>118,092</td>
+<td class='coverage'>41.928%</td>
+<td class='delta'>-14,322</td>
+<td>54.285%</td>
+</tr>
+<tr>
+<td>P35</td>
+<td>0.715356</td>
+<td>0.779206</td>
+<td>56.345302</td>
+<td>423,648</td>
+<td>44.363%</td>
+<td class='delta'>-59,332</td>
+<td>104,677</td>
+<td class='coverage'>37.165%</td>
+<td class='delta'>-13,415</td>
+<td>48.118%</td>
+</tr>
+<tr>
+<td>P40</td>
+<td>0.741217</td>
+<td>0.802447</td>
+<td>59.240257</td>
+<td>368,886</td>
+<td>38.629%</td>
+<td class='delta'>-54,762</td>
+<td>92,180</td>
+<td class='coverage'>32.728%</td>
+<td class='delta'>-12,497</td>
+<td>42.373%</td>
+</tr>
+<tr>
+<td>P45</td>
+<td>0.765330</td>
+<td>0.821075</td>
+<td>61.925539</td>
+<td>318,475</td>
+<td>33.350%</td>
+<td class='delta'>-50,411</td>
+<td>80,373</td>
+<td class='coverage'>28.536%</td>
+<td class='delta'>-11,807</td>
+<td>36.946%</td>
+</tr>
+<tr>
+<td>P50</td>
+<td>0.788090</td>
+<td>0.836147</td>
+<td>64.373078</td>
+<td>270,564</td>
+<td>28.333%</td>
+<td class='delta'>-47,911</td>
+<td>68,566</td>
+<td class='coverage'>24.344%</td>
+<td class='delta'>-11,807</td>
+<td>31.519%</td>
+</tr>
+<tr>
+<td>P55</td>
+<td>0.809970</td>
+<td>0.848009</td>
+<td>66.836784</td>
+<td>226,669</td>
+<td>23.736%</td>
+<td class='delta'>-43,895</td>
+<td>57,800</td>
+<td class='coverage'>20.522%</td>
+<td class='delta'>-10,766</td>
+<td>26.570%</td>
+</tr>
+<tr>
+<td>P60</td>
+<td>0.830989</td>
+<td>0.857613</td>
+<td>69.258946</td>
+<td>186,099</td>
+<td>19.488%</td>
+<td class='delta'>-40,570</td>
+<td>47,876</td>
+<td class='coverage'>16.998%</td>
+<td class='delta'>-9,924</td>
+<td>22.008%</td>
+</tr>
+<tr>
+<td>P65</td>
+<td>0.851621</td>
+<td>0.865440</td>
+<td>71.787760</td>
+<td>148,717</td>
+<td>15.573%</td>
+<td class='delta'>-37,382</td>
+<td>38,880</td>
+<td class='coverage'>13.804%</td>
+<td class='delta'>-8,996</td>
+<td>17.872%</td>
+</tr>
+<tr>
+<td>P70</td>
+<td>0.872018</td>
+<td>0.872083</td>
+<td>74.388088</td>
+<td>114,301</td>
+<td>11.969%</td>
+<td class='delta'>-34,416</td>
+<td>30,184</td>
+<td class='coverage'>10.717%</td>
+<td class='delta'>-8,696</td>
+<td>13.875%</td>
+</tr>
+<tr>
+<td>P75</td>
+<td>0.892473</td>
+<td>0.877905</td>
+<td>77.189498</td>
+<td>83,665</td>
+<td>8.761%</td>
+<td class='delta'>-30,636</td>
+<td>22,267</td>
+<td class='coverage'>7.906%</td>
+<td class='delta'>-7,917</td>
+<td>10.236%</td>
+</tr>
+<tr>
+<td>P80</td>
+<td>0.913763</td>
+<td>0.883138</td>
+<td>80.406958</td>
+<td>57,272</td>
+<td>5.997%</td>
+<td class='delta'>-26,393</td>
+<td>15,500</td>
+<td class='coverage'>5.503%</td>
+<td class='delta'>-6,767</td>
+<td>7.125%</td>
+</tr>
+<tr>
+<td>P85</td>
+<td>0.935774</td>
+<td>0.888018</td>
+<td>84.254225</td>
+<td>34,626</td>
+<td>3.626%</td>
+<td class='delta'>-22,646</td>
+<td>9,709</td>
+<td class='coverage'>3.447%</td>
+<td class='delta'>-5,791</td>
+<td>4.463%</td>
+</tr>
+<tr>
+<td>P90</td>
+<td>0.963527</td>
+<td>0.892881</td>
+<td>89.002732</td>
+<td>16,818</td>
+<td>1.761%</td>
+<td class='delta'>-17,808</td>
+<td>5,011</td>
+<td class='coverage'>1.779%</td>
+<td class='delta'>-4,698</td>
+<td>2.303%</td>
+</tr>
+<tr>
+<td>P95</td>
+<td>1.000000</td>
+<td>0.898779</td>
+<td>100.000000</td>
+<td>6,039</td>
+<td>0.632%</td>
+<td class='delta'>-10,779</td>
+<td>1,915</td>
+<td class='coverage'>0.680%</td>
+<td class='delta'>-3,096</td>
+<td>0.880%</td>
+</tr>
+<tr>
+<td>P100</td>
+<td>1.000001</td>
+<td>0.924996</td>
+<td>100.000000</td>
+<td>0</td>
+<td>0.000%</td>
+<td class='delta'>-6,039</td>
+<td>0</td>
+<td class='coverage'>0.000%</td>
+<td class='delta'>-1,915</td>
+<td>0.000%</td>
+</tr>
+</tbody></table></div>
+<div class='info'>
+<h2>Diagnostics</h2>
+<p><strong>Invalid NEW JSON rows:</strong> 0</p>
+<p><strong>Duplicate NEW root-language matches encountered:</strong> 42</p>
+</div>
+<div class='info'>
+<h2>Input files</h2>
+<strong>New files</strong><ul>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_01_multilang_translation_quality.jsonl</li>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_02_multilang_translation_quality.jsonl</li>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_03_multilang_translation_quality.jsonl</li>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_04_multilang_translation_quality.jsonl</li>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_05_multilang_translation_quality.jsonl</li>
+<li>/home/malam/projects/benchmarks/ai-safety-sept26/data/new_data/translations/stage06_unsafe_roots_part_06_multilang_translation_quality.jsonl</li>
+</ul>
+<strong>Old file</strong>
+<p>/home/malam/projects/benchmarks/ai-safety-sept26/data/old_data/aegis_multilang_translation_quality.jsonl</p>
+</div>
+</body></html>
