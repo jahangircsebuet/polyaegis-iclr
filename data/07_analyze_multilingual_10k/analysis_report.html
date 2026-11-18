@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html><head><meta charset='UTF-8'>
+<title>10K Multilingual Benchmark Analysis</title>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    max-width: 1500px;
+    margin: 28px auto;
+    padding: 0 24px 60px 24px;
+    background: #fafafa;
+    color: #222;
+    line-height: 1.5;
+}
+h1, h2, h3 { margin-top: 28px; }
+.card, .figure {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin: 18px 0;
+}
+.figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    font-size: 13px;
+}
+.data-table th, .data-table td {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 7px 9px;
+    text-align: right;
+}
+.data-table th:first-child,
+.data-table td:first-child {
+    text-align: left;
+}
+.data-table th { background: #eee; }
+.table-wrap {
+    overflow-x: auto;
+    margin-bottom: 24px;
+}
+.note {
+    color: #555;
+    font-size: 14px;
+}
+</style>
+
+</head><body>
+<h1>10K Multilingual Benchmark Analysis</h1>
+<div class='card'>
+<h2>Dataset summary</h2>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rows</td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>Unique sample_id</td>
+      <td>10000</td>
+    </tr>
+    <tr>
+      <td>Unique root_id</td>
+      <td>5235</td>
+    </tr>
+    <tr>
+      <td>Unique languages</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Unique categories</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Duplicate sample_id rows</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Duplicate (root_id, nllb_code) rows</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COMET-supported samples</td>
+      <td>4187</td>
+    </tr>
+    <tr>
+      <td>COMET-unsupported samples</td>
+      <td>5813</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class='card'>
+<h2>Language metadata coverage</h2>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rows with language metadata</td>
+      <td>10000</td>
+      <td>100.0000</td>
+    </tr>
+    <tr>
+      <td>Rows without language metadata</td>
+      <td>0</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Samples with Joshi class</td>
+      <td>0</td>
+      <td>0.0000</td>
+    </tr>
+    <tr>
+      <td>Samples with NLLB resource level</td>
+      <td>10000</td>
+      <td>100.0000</td>
+    </tr>
+    <tr>
+      <td>Samples with analysis tier</td>
+      <td>10000</td>
+      <td>100.0000</td>
+    </tr>
+  </tbody>
+</table>
+<p class='note'>analysis_tier prefers a Joshi/resource tier when available and otherwise falls back to the NLLB resource level. Joshi classes are reported separately.</p>
+</div>
+<div class='figure'>
+<h2>Category Distribution</h2>
+<img src='figures/01_category_distribution.png' alt='Category Distribution'>
+</div>
+<div class='figure'>
+<h2>Language Distribution</h2>
+<img src='figures/02_language_distribution.png' alt='Language Distribution'>
+</div>
+<div class='figure'>
+<h2>Resource Tier Distribution</h2>
+<img src='figures/03_tier_distribution.png' alt='Resource Tier Distribution'>
+</div>
+<div class='figure'>
+<h2>Joshi Class Distribution</h2>
+<img src='figures/04_joshi_class_distribution.png' alt='Joshi Class Distribution'>
+</div>
+<div class='figure'>
+<h2>Language Family Distribution</h2>
+<img src='figures/05_family_distribution.png' alt='Language Family Distribution'>
+</div>
+<div class='figure'>
+<h2>Script Distribution</h2>
+<img src='figures/06_script_distribution.png' alt='Script Distribution'>
+</div>
+<div class='figure'>
+<h2>Writing Direction Distribution</h2>
+<img src='figures/07_writing_direction_distribution.png' alt='Writing Direction Distribution'>
+</div>
+<div class='figure'>
+<h2>Sample Origin Distribution</h2>
+<img src='figures/08_sample_origin_distribution.png' alt='Sample Origin Distribution'>
+</div>
+<div class='figure'>
+<h2>Category Distribution by Sample Origin</h2>
+<img src='figures/09_category_by_origin.png' alt='Category Distribution by Sample Origin'>
+</div>
+<div class='figure'>
+<h2>Category × Resource Tier</h2>
+<img src='figures/10_category_by_tier_heatmap.png' alt='Category × Resource Tier'>
+</div>
+<div class='figure'>
+<h2>Language Coverage per Category</h2>
+<img src='figures/11_category_language_coverage.png' alt='Language Coverage per Category'>
+</div>
+<div class='figure'>
+<h2>BERTScore F1 Distribution</h2>
+<img src='figures/12_bertscore_distribution.png' alt='BERTScore F1 Distribution'>
+</div>
+<div class='figure'>
+<h2>COMET Score Distribution</h2>
+<img src='figures/13_comet_distribution.png' alt='COMET Score Distribution'>
+</div>
+<div class='figure'>
+<h2>chrF Score Distribution</h2>
+<img src='figures/14_chrf_distribution.png' alt='chrF Score Distribution'>
+</div>
+<div class='figure'>
+<h2>BERTScore F1 by Resource Tier</h2>
+<img src='figures/15_quality_by_tier_bertscore.png' alt='BERTScore F1 by Resource Tier'>
+</div>
+<div class='figure'>
+<h2>BERTScore F1 vs. chrF</h2>
+<img src='figures/16_quality_metric_correlation.png' alt='BERTScore F1 vs. chrF'>
+</div>
+<h2>Tabular analyses</h2>
+<h3>Category distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criminal Planning/Confessions</td>
+      <td>1907</td>
+      <td>19.0700</td>
+    </tr>
+    <tr>
+      <td>Hate/Identity Hate</td>
+      <td>1345</td>
+      <td>13.4500</td>
+    </tr>
+    <tr>
+      <td>Controlled/Regulated Substances</td>
+      <td>1344</td>
+      <td>13.4400</td>
+    </tr>
+    <tr>
+      <td>Harassment</td>
+      <td>1344</td>
+      <td>13.4400</td>
+    </tr>
+    <tr>
+      <td>PII/Privacy</td>
+      <td>1344</td>
+      <td>13.4400</td>
+    </tr>
+    <tr>
+      <td>Sexual</td>
+      <td>681</td>
+      <td>6.8100</td>
+    </tr>
+    <tr>
+      <td>Profanity</td>
+      <td>471</td>
+      <td>4.7100</td>
+    </tr>
+    <tr>
+      <td>Violence</td>
+      <td>363</td>
+      <td>3.6300</td>
+    </tr>
+    <tr>
+      <td>Guns/Illegal Weapons</td>
+      <td>330</td>
+      <td>3.3000</td>
+    </tr>
+    <tr>
+      <td>Unauthorized Advice</td>
+      <td>235</td>
+      <td>2.3500</td>
+    </tr>
+    <tr>
+      <td>Suicide and Self Harm</td>
+      <td>191</td>
+      <td>1.9100</td>
+    </tr>
+    <tr>
+      <td>Political/Misinformation/Conspiracy</td>
+      <td>147</td>
+      <td>1.4700</td>
+    </tr>
+    <tr>
+      <td>Fraud/Deception</td>
+      <td>104</td>
+      <td>1.0400</td>
+    </tr>
+    <tr>
+      <td>Copyright/Trademark/Plagiarism</td>
+      <td>43</td>
+      <td>0.4300</td>
+    </tr>
+    <tr>
+      <td>Malware</td>
+      <td>42</td>
+      <td>0.4200</td>
+    </tr>
+    <tr>
+      <td>Sexual Minor</td>
+      <td>33</td>
+      <td>0.3300</td>
+    </tr>
+    <tr>
+      <td>Threat</td>
+      <td>28</td>
+      <td>0.2800</td>
+    </tr>
+    <tr>
+      <td>Illegal Activity</td>
+      <td>22</td>
+      <td>0.2200</td>
+    </tr>
+    <tr>
+      <td>High Risk Gov. Decision Making</td>
+      <td>16</td>
+      <td>0.1600</td>
+    </tr>
+    <tr>
+      <td>Immoral/Unethical</td>
+      <td>8</td>
+      <td>0.0800</td>
+    </tr>
+    <tr>
+      <td>Manipulation</td>
+      <td>2</td>
+      <td>0.0200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Language distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>nllb_code</th>
+      <th>language_name</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ltz_Latn</td>
+      <td>Luxembourgish</td>
+      <td>709</td>
+      <td>7.0900</td>
+    </tr>
+    <tr>
+      <td>mlt_Latn</td>
+      <td>Maltese</td>
+      <td>680</td>
+      <td>6.8000</td>
+    </tr>
+    <tr>
+      <td>ast_Latn</td>
+      <td>Asturian</td>
+      <td>525</td>
+      <td>5.2500</td>
+    </tr>
+    <tr>
+      <td>oci_Latn</td>
+      <td>Occitan</td>
+      <td>431</td>
+      <td>4.3100</td>
+    </tr>
+    <tr>
+      <td>ceb_Latn</td>
+      <td>Cebuano</td>
+      <td>407</td>
+      <td>4.0700</td>
+    </tr>
+    <tr>
+      <td>ory_Orya</td>
+      <td>Oriya (Odia)</td>
+      <td>375</td>
+      <td>3.7500</td>
+    </tr>
+    <tr>
+      <td>sna_Latn</td>
+      <td>Shona</td>
+      <td>337</td>
+      <td>3.3700</td>
+    </tr>
+    <tr>
+      <td>zul_Latn</td>
+      <td>Zulu</td>
+      <td>331</td>
+      <td>3.3100</td>
+    </tr>
+    <tr>
+      <td>mri_Latn</td>
+      <td>Maori</td>
+      <td>311</td>
+      <td>3.1100</td>
+    </tr>
+    <tr>
+      <td>ckb_Arab</td>
+      <td>Sorani Kurdish</td>
+      <td>308</td>
+      <td>3.0800</td>
+    </tr>
+    <tr>
+      <td>nso_Latn</td>
+      <td>Northern Sotho</td>
+      <td>308</td>
+      <td>3.0800</td>
+    </tr>
+    <tr>
+      <td>tgk_Cyrl</td>
+      <td>Tajik</td>
+      <td>302</td>
+      <td>3.0200</td>
+    </tr>
+    <tr>
+      <td>nya_Latn</td>
+      <td>Nyanja</td>
+      <td>243</td>
+      <td>2.4300</td>
+    </tr>
+    <tr>
+      <td>ibo_Latn</td>
+      <td>Igbo</td>
+      <td>219</td>
+      <td>2.1900</td>
+    </tr>
+    <tr>
+      <td>lin_Latn</td>
+      <td>Lingala</td>
+      <td>169</td>
+      <td>1.6900</td>
+    </tr>
+    <tr>
+      <td>yor_Latn</td>
+      <td>Yoruba</td>
+      <td>145</td>
+      <td>1.4500</td>
+    </tr>
+    <tr>
+      <td>lug_Latn</td>
+      <td>Ganda</td>
+      <td>125</td>
+      <td>1.2500</td>
+    </tr>
+    <tr>
+      <td>wol_Latn</td>
+      <td>Wolof</td>
+      <td>121</td>
+      <td>1.2100</td>
+    </tr>
+    <tr>
+      <td>luo_Latn</td>
+      <td>Luo</td>
+      <td>77</td>
+      <td>0.7700</td>
+    </tr>
+    <tr>
+      <td>fuv_Latn</td>
+      <td>Fula</td>
+      <td>65</td>
+      <td>0.6500</td>
+    </tr>
+    <tr>
+      <td>sin_Sinh</td>
+      <td>Sinhala</td>
+      <td>49</td>
+      <td>0.4900</td>
+    </tr>
+    <tr>
+      <td>cym_Latn</td>
+      <td>Welsh</td>
+      <td>49</td>
+      <td>0.4900</td>
+    </tr>
+    <tr>
+      <td>est_Latn</td>
+      <td>Estonian</td>
+      <td>49</td>
+      <td>0.4900</td>
+    </tr>
+    <tr>
+      <td>afr_Latn</td>
+      <td>Afrikaans</td>
+      <td>49</td>
+      <td>0.4900</td>
+    </tr>
+    <tr>
+      <td>hin_Deva</td>
+      <td>Hindi</td>
+      <td>49</td>
+      <td>0.4900</td>
+    </tr>
+    <tr>
+      <td>hye_Armn</td>
+      <td>Armenian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>npi_Deva</td>
+      <td>Nepali</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>guj_Gujr</td>
+      <td>Gujarati</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>azj_Latn</td>
+      <td>Azerbaijani</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>ben_Beng</td>
+      <td>Bengali</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>bos_Latn</td>
+      <td>Bosnian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>bul_Cyrl</td>
+      <td>Bulgarian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>ces_Latn</td>
+      <td>Czech</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>fin_Latn</td>
+      <td>Finnish</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>glg_Latn</td>
+      <td>Galician</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>heb_Hebr</td>
+      <td>Hebrew</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>hrv_Latn</td>
+      <td>Croatian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>hun_Latn</td>
+      <td>Hungarian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>isl_Latn</td>
+      <td>Icelandic</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>jav_Latn</td>
+      <td>Javanese</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>kan_Knda</td>
+      <td>Kannada</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>kaz_Cyrl</td>
+      <td>Kazakh</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>kir_Cyrl</td>
+      <td>Kyrgyz</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>lit_Latn</td>
+      <td>Lithuanian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>lvs_Latn</td>
+      <td>Latvian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>mal_Mlym</td>
+      <td>Malayalam</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>nob_Latn</td>
+      <td>Norwegian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>pan_Guru</td>
+      <td>Punjabi</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>pes_Arab</td>
+      <td>Persian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>ron_Latn</td>
+      <td>Romanian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>slv_Latn</td>
+      <td>Slovenian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>spa_Latn</td>
+      <td>Spanish</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>swe_Latn</td>
+      <td>Swedish</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>swh_Latn</td>
+      <td>Swahili</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>tam_Taml</td>
+      <td>Tamil</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>tel_Telu</td>
+      <td>Telugu</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>tgl_Latn</td>
+      <td>Filipino (Tagalog)</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>zsm_Latn</td>
+      <td>Malay</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>amh_Ethi</td>
+      <td>Amharic</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>cat_Latn</td>
+      <td>Catalan</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>fra_Latn</td>
+      <td>French</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>ukr_Cyrl</td>
+      <td>Ukrainian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>als_Latn</td>
+      <td>Tosk Albanian</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>mar_Deva</td>
+      <td>Marathi</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>nld_Latn</td>
+      <td>Dutch</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>slk_Latn</td>
+      <td>Slovak</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>gle_Latn</td>
+      <td>Irish</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>urd_Arab</td>
+      <td>Urdu</td>
+      <td>48</td>
+      <td>0.4800</td>
+    </tr>
+    <tr>
+      <td>arb_Arab</td>
+      <td>Arabic</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>asm_Beng</td>
+      <td>Assamese</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>bel_Cyrl</td>
+      <td>Belarusian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>dan_Latn</td>
+      <td>Danish</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>deu_Latn</td>
+      <td>German</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>ell_Grek</td>
+      <td>Greek</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>eus_Latn</td>
+      <td>Basque</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>gaz_Latn</td>
+      <td>Oromo</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>hau_Latn</td>
+      <td>Hausa</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>ind_Latn</td>
+      <td>Indonesian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>ita_Latn</td>
+      <td>Italian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>jpn_Jpan</td>
+      <td>Japanese</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>kat_Geor</td>
+      <td>Georgian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>khk_Cyrl</td>
+      <td>Mongolian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>khm_Khmr</td>
+      <td>Khmer</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>kor_Hang</td>
+      <td>Korean</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>lao_Laoo</td>
+      <td>Lao</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>mkd_Cyrl</td>
+      <td>Macedonian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>mya_Mymr</td>
+      <td>Burmese</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>pbt_Arab</td>
+      <td>Pashto</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>pol_Latn</td>
+      <td>Polish</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>por_Latn</td>
+      <td>Portuguese</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>snd_Arab</td>
+      <td>Sindhi</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>som_Latn</td>
+      <td>Somali</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>srp_Cyrl</td>
+      <td>Serbian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>tha_Thai</td>
+      <td>Thai</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>tur_Latn</td>
+      <td>Turkish</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>vie_Latn</td>
+      <td>Vietnamese</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>xho_Latn</td>
+      <td>Xhosa</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>rus_Cyrl</td>
+      <td>Russian</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>zho_Hans</td>
+      <td>Chinese (Simplified)</td>
+      <td>47</td>
+      <td>0.4700</td>
+    </tr>
+    <tr>
+      <td>zho_Hant</td>
+      <td>Chinese (Traditional)</td>
+      <td>46</td>
+      <td>0.4600</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Resource-tier distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>analysis_tier</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low</td>
+      <td>6702</td>
+      <td>67.0200</td>
+    </tr>
+    <tr>
+      <td>High</td>
+      <td>3298</td>
+      <td>32.9800</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Joshi-class distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>joshi_class</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Unknown</td>
+      <td>10000</td>
+      <td>100.0000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>NLLB resource distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>nllb_resource_level</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low</td>
+      <td>6702</td>
+      <td>67.0200</td>
+    </tr>
+    <tr>
+      <td>High</td>
+      <td>3298</td>
+      <td>32.9800</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Sample-origin distribution</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample_origin</th>
+      <th>count</th>
+      <th>percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>old_reuse</td>
+      <td>6180</td>
+      <td>61.8000</td>
+    </tr>
+    <tr>
+      <td>new_stratified</td>
+      <td>3820</td>
+      <td>38.2000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Quality summary</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>count</th>
+      <th>missing</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>p05</th>
+      <th>p25</th>
+      <th>median</th>
+      <th>p75</th>
+      <th>p95</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bertscore_f1</td>
+      <td>10000</td>
+      <td>0</td>
+      <td>0.9451</td>
+      <td>0.0888</td>
+      <td>-0.1498</td>
+      <td>0.7560</td>
+      <td>0.9438</td>
+      <td>0.9737</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+    </tr>
+    <tr>
+      <td>comet_score</td>
+      <td>4187</td>
+      <td>5813</td>
+      <td>0.8126</td>
+      <td>0.1221</td>
+      <td>0.1176</td>
+      <td>0.5378</td>
+      <td>0.7753</td>
+      <td>0.8720</td>
+      <td>0.8921</td>
+      <td>0.9022</td>
+      <td>0.9245</td>
+    </tr>
+    <tr>
+      <td>chrf_score</td>
+      <td>10000</td>
+      <td>0</td>
+      <td>85.9044</td>
+      <td>15.1084</td>
+      <td>0.6868</td>
+      <td>55.1346</td>
+      <td>78.9116</td>
+      <td>88.0695</td>
+      <td>100.0000</td>
+      <td>100.0000</td>
+      <td>100.0000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Quality by origin</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>sample_origin</th>
+      <th>samples</th>
+      <th>bertscore_f1_n</th>
+      <th>bertscore_f1_mean</th>
+      <th>bertscore_f1_median</th>
+      <th>comet_score_n</th>
+      <th>comet_score_mean</th>
+      <th>comet_score_median</th>
+      <th>chrf_score_n</th>
+      <th>chrf_score_mean</th>
+      <th>chrf_score_median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>old_reuse</td>
+      <td>6180</td>
+      <td>6180</td>
+      <td>0.9847</td>
+      <td>0.9913</td>
+      <td>383</td>
+      <td>0.8859</td>
+      <td>0.8961</td>
+      <td>6180</td>
+      <td>90.5219</td>
+      <td>93.8098</td>
+    </tr>
+    <tr>
+      <td>new_stratified</td>
+      <td>3820</td>
+      <td>3820</td>
+      <td>0.8809</td>
+      <td>0.9154</td>
+      <td>3804</td>
+      <td>0.8053</td>
+      <td>0.8653</td>
+      <td>3820</td>
+      <td>78.4344</td>
+      <td>84.5975</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Quality by category</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>samples</th>
+      <th>bertscore_f1_n</th>
+      <th>bertscore_f1_mean</th>
+      <th>bertscore_f1_median</th>
+      <th>comet_score_n</th>
+      <th>comet_score_mean</th>
+      <th>comet_score_median</th>
+      <th>chrf_score_n</th>
+      <th>chrf_score_mean</th>
+      <th>chrf_score_median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criminal Planning/Confessions</td>
+      <td>1907</td>
+      <td>1907</td>
+      <td>0.9847</td>
+      <td>0.9940</td>
+      <td>123</td>
+      <td>0.8927</td>
+      <td>0.8970</td>
+      <td>1907</td>
+      <td>91.0843</td>
+      <td>94.8693</td>
+    </tr>
+    <tr>
+      <td>Hate/Identity Hate</td>
+      <td>1345</td>
+      <td>1345</td>
+      <td>0.9498</td>
+      <td>0.9824</td>
+      <td>527</td>
+      <td>0.8492</td>
+      <td>0.8892</td>
+      <td>1345</td>
+      <td>87.1598</td>
+      <td>90.1291</td>
+    </tr>
+    <tr>
+      <td>Controlled/Regulated Substances</td>
+      <td>1344</td>
+      <td>1344</td>
+      <td>0.9230</td>
+      <td>0.9572</td>
+      <td>956</td>
+      <td>0.8202</td>
+      <td>0.8754</td>
+      <td>1344</td>
+      <td>84.4220</td>
+      <td>87.2351</td>
+    </tr>
+    <tr>
+      <td>Harassment</td>
+      <td>1344</td>
+      <td>1344</td>
+      <td>0.9258</td>
+      <td>0.9603</td>
+      <td>915</td>
+      <td>0.8049</td>
+      <td>0.8528</td>
+      <td>1344</td>
+      <td>83.0675</td>
+      <td>86.4100</td>
+    </tr>
+    <tr>
+      <td>PII/Privacy</td>
+      <td>1344</td>
+      <td>1344</td>
+      <td>0.9746</td>
+      <td>0.9758</td>
+      <td>176</td>
+      <td>0.8543</td>
+      <td>0.8898</td>
+      <td>1344</td>
+      <td>85.9415</td>
+      <td>86.2715</td>
+    </tr>
+    <tr>
+      <td>Sexual</td>
+      <td>681</td>
+      <td>681</td>
+      <td>0.9422</td>
+      <td>0.9777</td>
+      <td>295</td>
+      <td>0.7869</td>
+      <td>0.8612</td>
+      <td>681</td>
+      <td>86.5397</td>
+      <td>89.3439</td>
+    </tr>
+    <tr>
+      <td>Profanity</td>
+      <td>471</td>
+      <td>471</td>
+      <td>0.9162</td>
+      <td>0.9572</td>
+      <td>317</td>
+      <td>0.7133</td>
+      <td>0.7491</td>
+      <td>471</td>
+      <td>83.5227</td>
+      <td>85.8618</td>
+    </tr>
+    <tr>
+      <td>Violence</td>
+      <td>363</td>
+      <td>363</td>
+      <td>0.9207</td>
+      <td>0.9644</td>
+      <td>176</td>
+      <td>0.8159</td>
+      <td>0.8736</td>
+      <td>363</td>
+      <td>80.8623</td>
+      <td>85.9458</td>
+    </tr>
+    <tr>
+      <td>Guns/Illegal Weapons</td>
+      <td>330</td>
+      <td>330</td>
+      <td>0.9445</td>
+      <td>0.9781</td>
+      <td>150</td>
+      <td>0.8248</td>
+      <td>0.8792</td>
+      <td>330</td>
+      <td>83.8280</td>
+      <td>86.4369</td>
+    </tr>
+    <tr>
+      <td>Unauthorized Advice</td>
+      <td>235</td>
+      <td>235</td>
+      <td>0.8392</td>
+      <td>0.8552</td>
+      <td>228</td>
+      <td>0.8070</td>
+      <td>0.8422</td>
+      <td>235</td>
+      <td>80.6376</td>
+      <td>84.8946</td>
+    </tr>
+    <tr>
+      <td>Suicide and Self Harm</td>
+      <td>191</td>
+      <td>191</td>
+      <td>0.9180</td>
+      <td>0.9639</td>
+      <td>93</td>
+      <td>0.8236</td>
+      <td>0.8834</td>
+      <td>191</td>
+      <td>83.9223</td>
+      <td>86.8734</td>
+    </tr>
+    <tr>
+      <td>Political/Misinformation/Conspiracy</td>
+      <td>147</td>
+      <td>147</td>
+      <td>0.9313</td>
+      <td>0.9703</td>
+      <td>54</td>
+      <td>0.8115</td>
+      <td>0.8839</td>
+      <td>147</td>
+      <td>85.0086</td>
+      <td>88.9567</td>
+    </tr>
+    <tr>
+      <td>Fraud/Deception</td>
+      <td>104</td>
+      <td>104</td>
+      <td>0.9262</td>
+      <td>0.9685</td>
+      <td>54</td>
+      <td>0.8348</td>
+      <td>0.8842</td>
+      <td>104</td>
+      <td>84.4993</td>
+      <td>88.1984</td>
+    </tr>
+    <tr>
+      <td>Copyright/Trademark/Plagiarism</td>
+      <td>43</td>
+      <td>43</td>
+      <td>0.9308</td>
+      <td>0.9696</td>
+      <td>22</td>
+      <td>0.8123</td>
+      <td>0.8697</td>
+      <td>43</td>
+      <td>83.3948</td>
+      <td>86.6117</td>
+    </tr>
+    <tr>
+      <td>Malware</td>
+      <td>42</td>
+      <td>42</td>
+      <td>0.8994</td>
+      <td>0.9516</td>
+      <td>24</td>
+      <td>0.7984</td>
+      <td>0.8686</td>
+      <td>42</td>
+      <td>84.0375</td>
+      <td>87.2077</td>
+    </tr>
+    <tr>
+      <td>Sexual Minor</td>
+      <td>33</td>
+      <td>33</td>
+      <td>0.8914</td>
+      <td>0.9465</td>
+      <td>21</td>
+      <td>0.8467</td>
+      <td>0.8897</td>
+      <td>33</td>
+      <td>79.3898</td>
+      <td>87.6314</td>
+    </tr>
+    <tr>
+      <td>Threat</td>
+      <td>28</td>
+      <td>28</td>
+      <td>0.9400</td>
+      <td>0.9640</td>
+      <td>16</td>
+      <td>0.8396</td>
+      <td>0.8697</td>
+      <td>28</td>
+      <td>83.8732</td>
+      <td>85.5045</td>
+    </tr>
+    <tr>
+      <td>Illegal Activity</td>
+      <td>22</td>
+      <td>22</td>
+      <td>0.8909</td>
+      <td>0.8869</td>
+      <td>18</td>
+      <td>0.7267</td>
+      <td>0.7462</td>
+      <td>22</td>
+      <td>86.2356</td>
+      <td>84.9168</td>
+    </tr>
+    <tr>
+      <td>High Risk Gov. Decision Making</td>
+      <td>16</td>
+      <td>16</td>
+      <td>0.8664</td>
+      <td>0.8681</td>
+      <td>13</td>
+      <td>0.8860</td>
+      <td>0.8912</td>
+      <td>16</td>
+      <td>71.7064</td>
+      <td>76.4221</td>
+    </tr>
+    <tr>
+      <td>Immoral/Unethical</td>
+      <td>8</td>
+      <td>8</td>
+      <td>0.8908</td>
+      <td>0.8918</td>
+      <td>7</td>
+      <td>0.6533</td>
+      <td>0.6964</td>
+      <td>8</td>
+      <td>86.5801</td>
+      <td>85.0543</td>
+    </tr>
+    <tr>
+      <td>Manipulation</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0.8260</td>
+      <td>0.8260</td>
+      <td>2</td>
+      <td>0.8931</td>
+      <td>0.8931</td>
+      <td>2</td>
+      <td>66.1018</td>
+      <td>66.1018</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Quality by tier</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>analysis_tier</th>
+      <th>samples</th>
+      <th>bertscore_f1_n</th>
+      <th>bertscore_f1_mean</th>
+      <th>bertscore_f1_median</th>
+      <th>comet_score_n</th>
+      <th>comet_score_mean</th>
+      <th>comet_score_median</th>
+      <th>chrf_score_n</th>
+      <th>chrf_score_mean</th>
+      <th>chrf_score_median</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Low</td>
+      <td>6702</td>
+      <td>6702</td>
+      <td>0.9584</td>
+      <td>0.9827</td>
+      <td>1900</td>
+      <td>0.8063</td>
+      <td>0.8800</td>
+      <td>6702</td>
+      <td>87.3127</td>
+      <td>89.8253</td>
+    </tr>
+    <tr>
+      <td>High</td>
+      <td>3298</td>
+      <td>3298</td>
+      <td>0.9180</td>
+      <td>0.9513</td>
+      <td>2287</td>
+      <td>0.8179</td>
+      <td>0.8676</td>
+      <td>3298</td>
+      <td>83.0427</td>
+      <td>85.8361</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Category-language coverage</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>samples</th>
+      <th>unique_languages</th>
+      <th>unique_roots</th>
+      <th>largest_language_count</th>
+      <th>smallest_language_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criminal Planning/Confessions</td>
+      <td>1907</td>
+      <td>22</td>
+      <td>417</td>
+      <td>209</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Hate/Identity Hate</td>
+      <td>1345</td>
+      <td>69</td>
+      <td>683</td>
+      <td>114</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Controlled/Regulated Substances</td>
+      <td>1344</td>
+      <td>82</td>
+      <td>1015</td>
+      <td>49</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Harassment</td>
+      <td>1344</td>
+      <td>87</td>
+      <td>1021</td>
+      <td>64</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>PII/Privacy</td>
+      <td>1344</td>
+      <td>47</td>
+      <td>339</td>
+      <td>132</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Sexual</td>
+      <td>681</td>
+      <td>84</td>
+      <td>365</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Profanity</td>
+      <td>471</td>
+      <td>94</td>
+      <td>366</td>
+      <td>34</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Violence</td>
+      <td>363</td>
+      <td>78</td>
+      <td>226</td>
+      <td>21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Guns/Illegal Weapons</td>
+      <td>330</td>
+      <td>67</td>
+      <td>172</td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Unauthorized Advice</td>
+      <td>235</td>
+      <td>68</td>
+      <td>233</td>
+      <td>23</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Suicide and Self Harm</td>
+      <td>191</td>
+      <td>73</td>
+      <td>117</td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Political/Misinformation/Conspiracy</td>
+      <td>147</td>
+      <td>47</td>
+      <td>74</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Fraud/Deception</td>
+      <td>104</td>
+      <td>55</td>
+      <td>62</td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Copyright/Trademark/Plagiarism</td>
+      <td>43</td>
+      <td>34</td>
+      <td>27</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Malware</td>
+      <td>42</td>
+      <td>31</td>
+      <td>31</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Sexual Minor</td>
+      <td>33</td>
+      <td>26</td>
+      <td>25</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Threat</td>
+      <td>28</td>
+      <td>21</td>
+      <td>17</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Illegal Activity</td>
+      <td>22</td>
+      <td>14</td>
+      <td>20</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>High Risk Gov. Decision Making</td>
+      <td>16</td>
+      <td>16</td>
+      <td>15</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Immoral/Unethical</td>
+      <td>8</td>
+      <td>6</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Manipulation</td>
+      <td>2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>Root diversity by category</h3>
+<div class='table-wrap'>
+<table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>category</th>
+      <th>samples</th>
+      <th>unique_roots</th>
+      <th>samples_per_unique_root</th>
+      <th>max_languages_for_single_root</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Criminal Planning/Confessions</td>
+      <td>1907</td>
+      <td>417</td>
+      <td>4.5731</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Hate/Identity Hate</td>
+      <td>1345</td>
+      <td>683</td>
+      <td>1.9693</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>Controlled/Regulated Substances</td>
+      <td>1344</td>
+      <td>1015</td>
+      <td>1.3241</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>Harassment</td>
+      <td>1344</td>
+      <td>1021</td>
+      <td>1.3164</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>PII/Privacy</td>
+      <td>1344</td>
+      <td>339</td>
+      <td>3.9646</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Sexual</td>
+      <td>681</td>
+      <td>365</td>
+      <td>1.8658</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Profanity</td>
+      <td>471</td>
+      <td>366</td>
+      <td>1.2869</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>Violence</td>
+      <td>363</td>
+      <td>226</td>
+      <td>1.6062</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Guns/Illegal Weapons</td>
+      <td>330</td>
+      <td>172</td>
+      <td>1.9186</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>Unauthorized Advice</td>
+      <td>235</td>
+      <td>233</td>
+      <td>1.0086</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Suicide and Self Harm</td>
+      <td>191</td>
+      <td>117</td>
+      <td>1.6325</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Political/Misinformation/Conspiracy</td>
+      <td>147</td>
+      <td>74</td>
+      <td>1.9865</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Fraud/Deception</td>
+      <td>104</td>
+      <td>62</td>
+      <td>1.6774</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Copyright/Trademark/Plagiarism</td>
+      <td>43</td>
+      <td>27</td>
+      <td>1.5926</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Malware</td>
+      <td>42</td>
+      <td>31</td>
+      <td>1.3548</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Sexual Minor</td>
+      <td>33</td>
+      <td>25</td>
+      <td>1.3200</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Threat</td>
+      <td>28</td>
+      <td>17</td>
+      <td>1.6471</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Illegal Activity</td>
+      <td>22</td>
+      <td>20</td>
+      <td>1.1000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>High Risk Gov. Decision Making</td>
+      <td>16</td>
+      <td>15</td>
+      <td>1.0667</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Immoral/Unethical</td>
+      <td>8</td>
+      <td>8</td>
+      <td>1.0000</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Manipulation</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1.0000</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body></html>

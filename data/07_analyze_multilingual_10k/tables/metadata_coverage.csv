@@ -1,0 +1,6 @@
+metric,count,percent
+Rows with language metadata,10000,100.0
+Rows without language metadata,0,0.0
+Samples with Joshi class,0,0.0
+Samples with NLLB resource level,10000,100.0
+Samples with analysis tier,10000,100.0

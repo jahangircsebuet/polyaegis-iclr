@@ -1,0 +1,22 @@
+category,samples,unique_languages,unique_roots,largest_language_count,smallest_language_count
+Criminal Planning/Confessions,1907,22,417,209,1
+Hate/Identity Hate,1345,69,683,114,1
+Controlled/Regulated Substances,1344,82,1015,49,1
+Harassment,1344,87,1021,64,1
+PII/Privacy,1344,47,339,132,1
+Sexual,681,84,365,57,1
+Profanity,471,94,366,34,1
+Violence,363,78,226,21,1
+Guns/Illegal Weapons,330,67,172,19,1
+Unauthorized Advice,235,68,233,23,1
+Suicide and Self Harm,191,73,117,12,1
+Political/Misinformation/Conspiracy,147,47,74,10,1
+Fraud/Deception,104,55,62,7,1
+Copyright/Trademark/Plagiarism,43,34,27,3,1
+Malware,42,31,31,5,1
+Sexual Minor,33,26,25,3,1
+Threat,28,21,17,2,1
+Illegal Activity,22,14,20,3,1
+High Risk Gov. Decision Making,16,16,15,1,1
+Immoral/Unethical,8,6,8,2,1
+Manipulation,2,2,2,1,1

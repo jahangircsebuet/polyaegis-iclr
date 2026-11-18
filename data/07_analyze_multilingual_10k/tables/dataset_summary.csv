@@ -1,0 +1,10 @@
+metric,value
+Rows,10000
+Unique sample_id,10000
+Unique root_id,5235
+Unique languages,100
+Unique categories,21
+Duplicate sample_id rows,0
+"Duplicate (root_id, nllb_code) rows",0
+COMET-supported samples,4187
+COMET-unsupported samples,5813
