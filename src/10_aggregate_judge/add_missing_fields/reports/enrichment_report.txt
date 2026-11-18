@@ -1,0 +1,27 @@
+Enrichment report -- add_missing_fields
+========================================================================================================================
+file                     rows rid_norm  rid+ rid?leg  rid?  lang+ lang?  cat+  cat?   lm+  lm?  eval+  eval~
+------------------------------------------------------------------------------------------------------------------------
+mistral/aya_expanse_32b  10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+mistral/claude_haiku_4_5  10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+mistral/gemini_2_5_flash  10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+mistral/gpt_5_4_mini    10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+mistral/gpt_oss_120b    10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+mistral/mistral_large_123b  10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/aya_expanse_32b    10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/claude_haiku_4_5   10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/gemini_2_5_flash   10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/gpt_5_4_mini       10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/gpt_oss_120b       10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+qwen/mistral_large_123b  10362     6339     0     203     0  10362     0  6542     0 10362    0  10362      0
+sonnet/aya_expanse_32b  10362     6339  3820     203     0   3820     0 10362     0  3820    0   3820      0
+sonnet/claude_haiku_4_5  10362     6339  3820     203     0   3820     0 10362     0  3820    0   3820      0
+sonnet/gemini_2_5_flash  10329     6328  3798     203     0   3798     0 10329     0  3798    0   3798      0
+sonnet/gpt_5_4_mini     10359     6339  3817     203     0   3817     0 10359     0  3817    0   3817      0
+sonnet/gpt_oss_120b     10362     6339  3820     203     0   3820     0 10362     0 10362    0   3820      0
+sonnet/mistral_large_123b  10362     6339  3820     203     0   3820     0 10362     0 10362    0   3820      0
+------------------------------------------------------------------------------------------------------------------------
+legend: rid_norm = legacy bare-hash root_id rewritten to aegis_root_ form
+        rid+ = root_id added where fully missing, rid?leg = legacy id with no known mapping (left as-is)
+        X+ = field added by this script, X? = could not be resolved (left as-is)
+        eval~ = eval added but with some sub-fields still unresolved

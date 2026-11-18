@@ -1,0 +1,198 @@
+\subsection{Reconciling Judge-Output Schemas Before Cross-Judge Aggregation}
+\label{sec:missing_fields_reconciliation}
+
+Each of the 10{,}362 Gold-quality benchmark samples (Section~\ref{sec:dataset_stats})
+is scored independently by three LLM judges --- Mistral-Large, Qwen, and
+Claude~Sonnet --- and the three judgments are merged on
+$(\text{root\_id}, \text{language})$ into a single consensus record per sample
+before majority-vote label aggregation. Because the v1 Gold subset
+(6{,}542 samples) and the v2 new-only Gold subset (3{,}820 samples) were
+produced by two successive iterations of the pipeline
+(Section~\ref{sec:dataset_construction}), their judge outputs did not share a
+common record schema: Sonnet's v1-origin output retained an earlier,
+pre-refactor record shape (\texttt{root\_id}, \texttt{language}, \texttt{prompt},
+\texttt{response}, \texttt{meta}, and a nested \texttt{eval} object), while its
+v2-origin output and both Mistral's and Qwen's outputs used a flattened schema
+that dropped the \texttt{eval} wrapper and, for Sonnet specifically, replaced
+\texttt{root\_id}/\texttt{language} with a single packed identifier. Root
+identity itself was doubly inconsistent: 72\% of all root\_id-bearing judge
+rows carried the pre-deduplication AEGIS sample id (a bare hexadecimal hash)
+rather than the canonical \texttt{aegis\_root\_*} identifier assigned during
+root construction, because the v1 sourcing pool predates that refactor.
+Naively joining the three judges' outputs on identity therefore silently
+discarded the majority of one judge's votes for two-thirds of the benchmark
+and left the merged corpus without translation-quality, category, or
+per-language metadata for those rows --- Sonnet's votes, for instance, were
+recoverable for only 3{,}064 of the 10{,}362 samples (29.6\%) under a naive
+join.
+
+We address this with a four-step backtracking reconciliation applied to the
+merged per-judge corpora before aggregation:
+
+\begin{enumerate}
+  \item \textbf{Root-identity normalization.} We invert the many-to-one
+  \texttt{source\_ids} mapping recorded at the root-construction stage
+  (Section~\ref{sec:dataset_construction}) to recover, for every legacy
+  bare-hash identifier, the canonical \texttt{aegis\_root\_*} root it was
+  collapsed into, and rewrite it in place. This resolves 97.4\%
+  (1{,}444/1{,}482) of the distinct legacy identifiers found in the merged
+  corpus; the remaining 38 predate the current AEGIS filtering snapshot
+  entirely and are left as-is and explicitly flagged, rather than guessed.
+
+  \item \textbf{Per-sample metadata backfill.} For every $(\text{root\_id},
+  \text{language})$ pair, we recover \texttt{category} and the underlying
+  translation-quality scores (BERTScore~F1, COMET, combined score) from three
+  pipeline stages in priority order: the response-generation stage, the
+  master percentile-sampling manifest, and the v1 judge output's own
+  \texttt{eval} block. Jointly, these three sources cover 100\% of the
+  $(\text{root\_id}, \text{language})$ pairs present anywhere in the merged
+  corpus, verified by exhaustive lookup against all 62{,}172 rows per judge.
+
+  \item \textbf{Quality-bucket recomputation.} We reproduce the combined-score
+  and quality-bucket assignment rule from Table~\ref{tab:quality_thresholds}
+  exactly, and validate it by recomputing the bucket for all 6{,}542
+  pre-existing (v1) assignments: the recomputed bucket matches the original
+  in every case (0 discrepancies). This lets previously un-scored rows
+  receive a quality bucket under the same criteria as the rest of the
+  benchmark, rather than an ad hoc or default value.
+
+  \item \textbf{Language-metadata backfill.} Fine-grained linguistic taxonomy
+  (script, family, subgrouping, writing direction, Joshi resource class) had
+  only ever been computed for the 23 languages in the benchmark's hand-curated
+  low-resource focus set. For the remaining 77 languages we backfill script,
+  family, subgrouping, and NLLB resource level from the language-code
+  reference table used during translation, while explicitly leaving the
+  Joshi-class fields unset --- fabricating a classification for languages the
+  benchmark never assigned one to would misrepresent the hand-curated subset
+  as more complete than it is.
+\end{enumerate}
+
+Table~\ref{tab:field_reconciliation_summary} reports the resulting field
+coverage, per judge, before and after reconciliation. All five
+fields required for cross-judge aggregation reach 100\% coverage on the full
+10{,}362-sample benchmark for every judge; the 38 unresolvable legacy root
+identifiers (Table~\ref{tab:field_census_sonnet}, \texttt{root\_id} column)
+are the only fields left intentionally incomplete, and are excluded from
+downstream aggregation statistics rather than imputed.
+
+\begin{table}[t]
+\centering
+\small
+\caption{
+\textbf{Field coverage before and after schema reconciliation}, aggregated
+across all 6 generator models within each judge (mistral/qwen: 62{,}172
+rows; sonnet: 62{,}136 rows, reflecting a small pre-existing judge-call
+shortfall unrelated to this reconciliation). \emph{Before} counts reflect the
+raw merged judge output; \emph{after} counts reflect the reconciled output
+consumed by the aggregator.
+}
+\label{tab:field_reconciliation_summary}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{\textbf{Mistral}} & \multicolumn{2}{c}{\textbf{Qwen}} & \multicolumn{2}{c}{\textbf{Sonnet}} \\
+\textbf{Field} & Before & After & Before & After & Before & After \\
+\midrule
+\texttt{root\_id}   & 62{,}172 & 62{,}172 & 62{,}172 & 62{,}172 & 39{,}241 & 62{,}136 \\
+\texttt{language}   & 0        & 62{,}172 & 0        & 62{,}172 & 39{,}241 & 62{,}136 \\
+\texttt{category}   & 22{,}920 & 62{,}172 & 22{,}920 & 62{,}172 & 0        & 62{,}136 \\
+\texttt{eval}        & 0        & 62{,}172 & 0        & 62{,}172 & 39{,}241 & 62{,}136 \\
+\texttt{lang\_meta}  & 0        & 62{,}172 & 0        & 62{,}172 & 26{,}157 & 62{,}136 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Data-Quality Census of the Reconciled Judge Output}
+\label{sec:field_census}
+
+To surface any remaining data-quality issues before aggregation, we census
+\emph{every} field present in the reconciled per-judge corpora, not only the
+five targeted above. Tables~\ref{tab:field_census_mistral}--\ref{tab:field_census_sonnet}
+report, for each field, the number of rows in which it is present
+(non-\texttt{null}) versus missing, aggregated over all 6 generator models
+within each judge. Fields below 100\% coverage are either (a) genuinely
+judge-call-level failures pre-dating this reconciliation (\texttt{error},
+\texttt{judge}, \texttt{judge\_raw}, and their dependent token/latency
+fields), which are out of scope for a field-backfill step and are handled by
+the aggregator's existing judge-validity gate, or (b) fields that are
+schema-specific by construction (e.g.\ \texttt{sample\_id} and
+\texttt{source\_custom\_id} are only populated for the v2-origin half of
+Mistral/Qwen's output; Sonnet's raw per-call fields such as
+\texttt{response\_raw} and \texttt{provider\_response\_id} are only populated
+for the v2-origin half, since the v1-origin half never carried them) and
+require no action.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Field census, \textbf{Mistral} judge output (62{,}172 rows, reconciled).}
+\label{tab:field_census_mistral}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Field} & \textbf{Present} & \textbf{Missing} & \textbf{\% Present} \\
+\midrule
+root\_id, language\_name, language, category, lang\_meta, eval & 62{,}172 & 0 & 100.0\% \\
+judge\_id, response\_type, provider, model, source\_file, source\_line, quantization & 62{,}172 & 0 & 100.0\% \\
+judge\_raw, prompt\_tokens, completion\_tokens, total\_tokens, finish\_reason & 62{,}136 & 36 & 99.9\% \\
+judge & 62{,}135 & 37 & 99.9\% \\
+generator\_model & 62{,}078 & 94 & 99.8\% \\
+source\_custom\_id & 31{,}086 & 31{,}086 & 50.0\% \\
+sample\_id & 22{,}920 & 39{,}252 & 36.9\% \\
+error & 37 & 62{,}135 & 0.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Field census, \textbf{Qwen} judge output (62{,}172 rows, reconciled).}
+\label{tab:field_census_qwen}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Field} & \textbf{Present} & \textbf{Missing} & \textbf{\% Present} \\
+\midrule
+root\_id, language\_name, language, category, lang\_meta, eval & 62{,}172 & 0 & 100.0\% \\
+judge\_id, response\_type, provider, model, source\_file, source\_line, quantization & 62{,}172 & 0 & 100.0\% \\
+judge\_raw, prompt\_tokens, completion\_tokens, total\_tokens, finish\_reason & 62{,}136 & 36 & 99.9\% \\
+judge & 62{,}134 & 38 & 99.9\% \\
+generator\_model & 62{,}078 & 94 & 99.8\% \\
+source\_custom\_id & 31{,}086 & 31{,}086 & 50.0\% \\
+sample\_id & 22{,}920 & 39{,}252 & 36.9\% \\
+error & 38 & 62{,}134 & 0.1\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\caption{Field census, \textbf{Sonnet} judge output (62{,}136 rows, reconciled).}
+\label{tab:field_census_sonnet}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Field} & \textbf{Present} & \textbf{Missing} & \textbf{\% Present} \\
+\midrule
+root\_id, language, category, lang\_meta, eval & 62{,}136 & 0$^{\dagger}$ & 100.0\% \\
+judge & 62{,}134 & 2 & 100.0\% \\
+custom\_id & 42{,}510 & 19{,}626 & 68.4\% \\
+prompt, meta & 39{,}241 & 22{,}895 & 63.2\% \\
+response & 39{,}147 & 22{,}989 & 63.0\% \\
+response\_raw & 35{,}979 & 26{,}157 & 57.9\% \\
+provider, model, provider\_response\_id, finish\_reason, prompt\_tokens, & & & \\
+\quad completion\_tokens, total\_tokens, cache\_read/write\_tokens, & & & \\
+\quad token\_count\_method, source\_input\_file & 22{,}895 & 39{,}241 & 36.8\% \\
+source\_file & 6{,}542 & 55{,}594 & 10.5\% \\
+error & 94 & 62{,}042 & 0.2\% \\
+\bottomrule
+\end{tabular}
+
+\vspace{0.3em}
+{\footnotesize $^{\dagger}$\texttt{root\_id} is non-null for all 62{,}136 rows,
+but 1{,}218 of these (38 distinct legacy identifiers, each spanning multiple
+translated languages) remain in the pre-refactor bare-hash form rather than
+\texttt{aegis\_root\_*}, since no mapping to a canonical root exists in the
+current AEGIS data; these are flagged rather than fabricated and are
+traceable via \texttt{reports/enrichment\_report.json}. The same 38
+identifiers (1{,}218 rows) recur identically in the Mistral and Qwen judge
+output, since all three judges score the same underlying samples.}
+\end{table}

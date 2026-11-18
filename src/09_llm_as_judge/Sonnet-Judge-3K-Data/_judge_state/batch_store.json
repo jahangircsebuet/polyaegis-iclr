@@ -1,0 +1,2178 @@
+{
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01RrefywWBmS9oBBvFtGshyD",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_01Jn4j5YqZHAPG5M18SEBAar",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_018Frfb92NoFf4mCj6x7kZhD",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_01PJzK3EYGxwGfSuUet64Y87",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_01N8e6vBjeqTE7sVKdp9zQ6n",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_01K9bWrkBszkjQLQSGv2aR15",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01BrKNQHpkPzBgrs5TKCQqYD",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_01CvkKQT7biggoPSUzK8Ze21",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_017enb7VpkHW4U8AaSuKp7jc",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_01KJ6TucTpYT272T1eEFLPmL",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01WLCg6L2WQfHZJQPHHqusKV",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01XpY6XwY2htp3qnimZ9Xdf7",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_01SMQg1Kf6pSYzsBqa74TMsq",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_014JwuhBmXFx67TPtLDi8ALe",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_01Qef1HmjmHwpzpCrSyuZbZE",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_014zoaUADQs93RzaSoRvPtE7",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_01CPacF1hgFpJm2LN1wm9QsJ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_01JSasAqjLtqkRq5CXjtL4SC",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_016XQkHmgAo79gqiM6Qgo5cM",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01LEn97cnhhVJ6gUydEELThC",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_01B1Z48TWv8262K3nLZKLTiZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_01N6RPYLXViYecWf7U1fHtux",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_01DL2DUwJUrpojXKrsd7gAoQ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_011EjtrW1JoQ189YCoNPXASx",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_015Qcr8yxsidyi7noU2z44sr",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_01F8M5w3NfqRQUtJ5uLRfPJY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_01HGyJ7hzCqEBTspE8ry2jcj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_013FMm4Gv1FsEYC2X3aeCUBp",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01LicwxP5Zcxk4V8xvEMjxjZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01D8zWXyfuqawNENi7D2FvwQ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_0118fUL6V4vnuPAq8pnPs6rV",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_01NRhkP2hFPVqyre3PwnVoAW",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01UsTweUtsym2QfJfmGDYVbX",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_019ymHk4AUWYi6MAaoaCL9go",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_0121Fd4ctpLT4k5ZTPb9ALe4",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_01SdQFdXo5gEMcxsoUzXdxTj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01Ak4QAhTLS4YeWo3JXaqsSY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_01AE3zZRPLqJXo9snNHtVTbq",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01B3LwrEF9EKeHkBM9pa5QGg",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/batches/chunk_038.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/aya_expanse_32b_10k_new_4ea47d38/chunk_results/results_038.jsonl",
+    "n_requests": 20,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01ADZeGqgfpDh379oUQdYpsi",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_017j7zsyCzhDpviLnMrkBema",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_01JgiVNF4oiKGvaCk2RSFPTF",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_019SxGSYHmjgvzvNGZEBFf3E",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_015K11hSFKvpHYpzXrR2cnhr",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_01WxJ3Mfx7CPjFnj1bJohCAK",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01Pfzjfn6KDbUGk6X52DgQhW",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_01FpnGpj5v9C2LTM6TdSWUif",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_01H6WaWDBQdSwddfg81PzVaK",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_01RL26Kbx2r3reFGQir4ZeFC",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01JrKeBVgHs3UDhUog3uBJ4y",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01NoJxSQhZEsnqoFDkzsNtcm",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_01HM5ZSYZMUxuXsKALzC2D4n",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_01Q3M8M7ZPiWkuDnLbdk62QS",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_01SsbfFaajkVbFzUCZhf5VYM",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_01BDgnZB17omwz7MTJbBMreE",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_01Y2U6uPmN6Axy5CQoo3UM78",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_0182i2szkdwMsBKs5Mhx7Uod",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_018MP1cGz3jwWtCPMwt9rYYS",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01LcZDn66qUFMLvpH3cdq3Mn",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_012VQdxsUer5B6EvdEabqGKH",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_0123mczZ5CxNouALWpfWSCY8",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_016rPaMC4ANoVicxEN7zdPWj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01GQzYcmLhCSuRVgrVWReMtz",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_012B1Tts3vFys6tyHdKgWMdV",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_011PbHrKsQVB9USCtj4nftjD",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_019N21HCFpZzKjjGmgBdjk8g",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_011dFkyHzYzUxXLnXiKXFL5X",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01TpFMuEHp8ki41KM7E4U9ek",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01D6FTH5a7WLG6pHsE64BhZY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_014tCmPdaK9jydedfQXq4fQb",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_014mfvM3xgWqjqXuyiLq9J89",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01LD51e6DxRJd4ALBYZKc3qA",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_016zo96nJdX9VAAC2mfpPjds",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_01XVHSgF3yTHthfcAzkhNioy",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_01U4ExNmrittxxLQjC5RByKU",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01H5XDjaLZGuKoH2Zuu48sVh",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_01BqFqCDegMiXQvrm7oBURdu",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01XfZfNYWw1siGwGQwJUP7kX",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/batches/chunk_038.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt-oss-120b_c0b1eb20/chunk_results/results_038.jsonl",
+    "n_requests": 20,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_019cG2FhbbHqYvxEHLzjwoT2",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_012YMbyPvJuVA6qPtQvWmDfj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_01J6NWTqDwKVgCPJh7VZUNyk",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_01YUmgoCv2hJWxhJi7y2XRv3",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_01StGfSMCJs82n3zNFu1KFay",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_013TUfLxaCJAxienBmEFixLY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01CsTabsVb2nJ92FZ9p5kJWz",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_01QPB3iCbT81hEGi6g4NgNjF",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_01LUJEze5Hbzww68BZ9GZwXg",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_01Fjzm7SNP2RbHLuXfo1uqp3",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01XT9HJAYdrhtRLhsDRPKW6h",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01B5H8LceAtCifZisU23xXwZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_01DcWD8Q1vdJj9fTV1cSHGoe",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_01C5i2jkKFyiSrnUvxyoAKsP",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_019SpYzWz1QZfVkuVAoxvNFi",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_019qtCCD1iLroPqzQQabwHHM",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_014hkBfzAww59yFtevTzq9ef",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_01HJmi737jtpTv3M9tAsR2hT",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_01KPDvaHjzcBbVqh36rdU6aC",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01Jz6FoSsAyQYHNKqsM14cng",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_016G234EtoEoAPd1f1FH2Jm6",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_014WzypJYz3cKZdaRBApw5ot",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_01ADnhvenxKvz13V9BzkWL63",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01SeUsvC2hBuKX2jf9RtqM8T",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_019ejGh1EMo5RfzvT8mmvdaj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_01HoJP6sfFJs6EsYgkraSKrx",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_01T5LEdRAYmmMhxuoDgFPFy5",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_01G3ezq2s34SuB1Pb4TYhAaE",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01BMwDxxGHqG1ZshuExXxAMF",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01TK7CQmKgoE9uBfoaPu9T6G",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_01Xf3zAG4adcb33GkbJqgYgr",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_01TxRjJqNMGyuwPNC662VQjr",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01FNfpxzU4jkgTRyVTq7cK4a",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_01T14M7kQJVWVZc6TUdHiCVK",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_01AivSEYkfgGsrPn1nYErNS9",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_0165RdAat2tnRhTEv8C4iFex",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01C6JppJv8UjjPtJf8XmLfnA",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_01Kb7oUJCSSb572GmaPCHt1g",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01NVpHoZjkryqhSxuQ2SVNsv",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_038.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_038.jsonl",
+    "n_requests": 20,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01Ca2ghciVFcRwHdG915HvKa",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_000.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_013Nyn42fMamimL4DvZw6fVH",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_001.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_011gQ4B7LEdV1MjgqXPHn2fk",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_002.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_01PDZbKXnrtA2nqS72K8gQBc",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_003.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_01BxoLXbT5iDufWKWQaNxx1B",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_004.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_01UuXwPopKayZYikuaosygAg",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_005.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01C1HGo8ChocEShmki6idEGH",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_006.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_0164Sauxd5nq4z2kFe6tAttG",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_007.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_01XThm5WLYHmAJ35naqEUdMX",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_008.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_01PiF5r8cKegKGhyj2j84Mw5",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_009.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_011m3M42sbqATiCQzY42n2zW",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_010.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01ESzZxJ4bed3ZASiVcr87DH",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_011.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_01YBferZdBoRep7Y1AJ2fGYQ",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_012.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_01EDAzmTq5RKhVWyA3zG9qSq",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_013.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_016TNyJrYnbyg5nnTdjRycKF",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_014.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_01UCwYReDWxYaLCJLwHgygUb",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_015.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_01U5efzwXddivxSN1K7nsSPU",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_016.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_018WvPYkhvi3agiqNgQ7iybJ",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_017.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_0196YDM8bPLkQGJFdJV7MZmU",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_018.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01Px3YV7p148gcZhPSD6WPWo",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_019.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_01Gckq5oTNd7Dx1BAcm5RMBH",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_020.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_01GmvtaG1pZayz1hAbBbhEJk",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_021.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_01DmXuJY9bcqrC3KvoHGytPa",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_022.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01DcWAJf76WHgGBpQDddAuBg",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_023.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_01H3oMwMWGEn3Qkwvx32xt8V",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_024.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_015ne9Y6GRq7Q9TKYZTN8Uh9",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_025.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_01FMN7eBKjNSSrh34by2WrqM",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_026.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_014Qp6QnGAmQepB86Aw5aY3Y",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_027.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01H239Zk4T3tcNKWQSJSayNR",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_028.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01MqP7JaW5CYapEFfcQNiDXb",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_029.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_01FigyUqTggbqvtig3vgGMp8",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_030.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_01UM25FyJuNeTMePdwgLuxLF",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_031.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01WaCYBAhZrqRqE9zFB76WDu",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_032.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_01PUgeQqQSarZPdCL5ZhU6co",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_033.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_01TRRVFrFt49VsgMMReFY1oA",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_034.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_01FHW4i9PUSyB8SRChfurJ12",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_035.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01LkcBdK7n6pWGw5RhVQHGpP",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_036.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_01R3mgD4HhohCeb2wP1A9mvT",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_037.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01QFnfTpyi53ecw92KZ19nyV",
+    "provider": "anthropic",
+    "input_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/batches/chunk_038.jsonl",
+    "output_file": "src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/mistral_large_123b_merged_e3f199ba/chunk_results/results_038.jsonl",
+    "n_requests": 20,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01X6d2HGjeXA2avTpFVSo8Gn",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_019SN7jgfinNuXzEFcE9FtYR",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_01FrPPJmzpdUpHLRmG8xFY5p",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_012QRwZ569Ggj2gALZTMKHAy",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_017ohcqQmrRecFvqkZijbJRB",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_01MQK3xhnZ3NSfazy5S4fnQg",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01GyDM1muX4amqvgEKB9Qk3R",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_01HQgXtysDz3NWQTMDs6b7HQ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_0167mP4jrhTscn7si9hUpva1",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_011q44nBKF1MhmqnrdAVy8ke",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01JK9YDpMQwUB3T9ZHZftpX3",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01AmDrwsB12wtFxADkK6TmYh",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_017HjUKMAKgz8vyb7ioD1n1V",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_0141g6x1Ym55yCrQ97tcfPWM",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_01PyDC3YJz6qWMJRTcCN1yG9",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_01SHrx7z98mkBHwHorUWc4Yz",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_01NZceupuikeAjiyVAg5jFg2",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_01N1iRsiDguSmWGBBuar6TvC",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_01HVQ8MkTNXMtn1GxoDkTqmm",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_017mQpXAb2qaaqC7zSkZd1uc",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_01SbWQjCSZtn3RPTVoTCzXCZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_01Fw2bvUYWobwRGxvMDVA3iD",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_01J8s8KDeWaPKdrfuvJTKe8w",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01Kd7sktVmbCbRxAkCdYKPjU",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_01QPZVqAQF8yzoX3sHMff9sb",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_016gjTxxY4Tz12vDMTvRPNvo",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_01PA8HJNetw6Vk6ULVRnMmNQ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_01YCTLYHSth9Un8EPK2eMPtL",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01UjZYks547Tw9bpJ5AyYk4u",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01FF5SckWm62RxsP7MeMAmYu",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_01XCJkdGgGm6DDS68VwFj8Yq",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_01EcimFczTXnaXShpcc39ouU",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01BBH1rnRukjnJnBebKrpQMF",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_01Q2qQdtKVdKxh5Nqs7sjmz8",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_013AcMWjfa2EEEdtyudm1QuF",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_0186RsNkVe2tS9D7VuYgvFQc",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01XTqn9a39Mes3dmKPt2rHpj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_0199udWhSajPZnNCQxowVebc",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gemini_2_5_flash_eace0e03/chunk_results/results_037.jsonl",
+    "n_requests": 98,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01VBSBJKC7pTHhsJK221NhrW",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_01CqjGdib1Nk3TKGjkUZpFX7",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_0144ypAppu54fwvf5uUFJnTu",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_015qJmet3MmtMcbe7DZEugqN",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_01DfPSEr7R18j7vSWWzfjzMU",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_01G9t7jHw4qYWgH5L8Mx1di6",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01SjwFPBbSQoSH4ARP3R1VYy",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_01LsqE1FcYP7akWxaRuD7PQR",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_01HzBJmYiHyaaQJaak96UDDu",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_018Nw9em4G5mXENQDB8E1sKQ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01CwmcUkgTtHuiJgeE9YR86C",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_011EVnCn5wGgciboLqVCQJ3t",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_011WPGv2UDAbu1jYfy66iJxp",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_01UHryCbeqvKSreeMyzBdrpx",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_019EaJqSPwqnbPA2wCWgynLS",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_01P8tS5koc7CPQFM9GdchTSY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_018S1XcAaADYrughyu7Q79YZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_013bL1aENE8cw7dSyAaKk3Fj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_01NdE55WQAFHi72Sx3SV7tFe",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01VnvCaLUhUMbn8Fn3d1fEvf",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_01WoMWuTau2NYWeicbZT76Ks",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_01RfhuRWw4Ntkx94VdGvup6H",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_018FnXPCn3tFf8CxAebnNd4b",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01HonmsvDZ3fFeYB9NuMPFBG",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_01459FNtYjZ5kxYY3XteqcUj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_01Y3F5e2aejD2KjRMzRxCmLa",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_013cBpDrSjWxRrg29Ao3Y63V",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_015hvqAw3ZpkYiDAMzNc9DcW",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_015nxFbBtBNZxfjNYrCEVsqv",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01LrMNUoaK5u5cY56s1UheEB",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_01WbSTDeu3GoQKtEL9ofrnjj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_018M7uEcWBrWA6jojA6kMi2G",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01VS3i4Ri3RuYRmQTjsfbCJq",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_016nNftov3qa6aytj7VTmLdj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_01SPR4pNa9aNHAq4EJnNKV9t",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_017c5ZYPJrcqyijVt45mdi5E",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01PsjL7E3jbYSp3hw4Lef4bU",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_013JEii1K9G6Pxdu6dksFi6e",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01PJLp2gwKeotjz1ipoi4njL",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/batches/chunk_038.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/gpt_5_4_mini_0e223bf2/chunk_results/results_038.jsonl",
+    "n_requests": 17,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_000.jsonl": {
+    "batch_id": "msgbatch_01A5KsTCyFL8kojdJT1kG2ef",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_000.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_000.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_001.jsonl": {
+    "batch_id": "msgbatch_01WTCRVCs1Rw6TA7kVHmzQNA",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_001.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_001.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_002.jsonl": {
+    "batch_id": "msgbatch_01V4uLKcZRSYU7JDMNkdDt5M",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_002.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_002.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_003.jsonl": {
+    "batch_id": "msgbatch_01F7aAxXGwpA7Ck6b5t8KryY",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_003.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_003.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_004.jsonl": {
+    "batch_id": "msgbatch_01QjScL9NezB5cHduDSYzEVw",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_004.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_004.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_005.jsonl": {
+    "batch_id": "msgbatch_011BE3hfXjUuZdDm3YsqhbT2",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_005.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_005.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_006.jsonl": {
+    "batch_id": "msgbatch_01JvZLjYSZ136jNKujsxQcKu",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_006.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_006.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_007.jsonl": {
+    "batch_id": "msgbatch_016PVpiow2EAfgyQD6kftmse",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_007.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_007.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_008.jsonl": {
+    "batch_id": "msgbatch_016rS5BrEj5GmHaxx64ZcMDV",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_008.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_008.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_009.jsonl": {
+    "batch_id": "msgbatch_01Qmote9rohB61VmhcQuYzUy",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_009.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_009.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_010.jsonl": {
+    "batch_id": "msgbatch_01241Mg9Xm9XHvfgbFRWw9eB",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_010.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_010.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_011.jsonl": {
+    "batch_id": "msgbatch_01DvM2jcfee3ozUw1p2fDTxS",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_011.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_011.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_012.jsonl": {
+    "batch_id": "msgbatch_01GmiG39PC7X6JJkydaiMPnT",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_012.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_012.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_013.jsonl": {
+    "batch_id": "msgbatch_018uVtYgLxC8WkTQxUQxqPNd",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_013.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_013.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_014.jsonl": {
+    "batch_id": "msgbatch_017ew2CMNdrhWcktJCoMWaqm",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_014.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_014.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_015.jsonl": {
+    "batch_id": "msgbatch_01RqZYpz1XEieLPYiMjGBRrB",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_015.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_015.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_016.jsonl": {
+    "batch_id": "msgbatch_01JrDrZAYJf71o78xkk4KoPj",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_016.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_016.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_017.jsonl": {
+    "batch_id": "msgbatch_014rJaZvySqKdD5gmrKZwJ6E",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_017.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_017.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_018.jsonl": {
+    "batch_id": "msgbatch_01AQZYrLM9b4XGBpiEb6iUvv",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_018.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_018.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_019.jsonl": {
+    "batch_id": "msgbatch_01JFwRTRAXsvzneNos3MMX6j",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_019.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_019.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_020.jsonl": {
+    "batch_id": "msgbatch_01XA7zAdHizAYgrQ1tFdcu3E",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_020.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_020.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_021.jsonl": {
+    "batch_id": "msgbatch_01BoBAB9rHadhKmhnDypv3yq",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_021.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_021.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_022.jsonl": {
+    "batch_id": "msgbatch_019EE98NCJ2qx1jYByCmHy5s",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_022.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_022.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_023.jsonl": {
+    "batch_id": "msgbatch_01M7R5a7vCkuUNuSNi8bvQ6q",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_023.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_023.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_024.jsonl": {
+    "batch_id": "msgbatch_01KmVsMm8DcrudrFYdH9Eg6m",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_024.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_024.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_025.jsonl": {
+    "batch_id": "msgbatch_0174cwcmkeyE2qWUS8ufA1fT",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_025.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_025.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_026.jsonl": {
+    "batch_id": "msgbatch_01CbCvpVKkQWeGkj2MXYHE34",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_026.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_026.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_027.jsonl": {
+    "batch_id": "msgbatch_01TZHomPRcbmTJE1c6zf4SWZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_027.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_027.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_028.jsonl": {
+    "batch_id": "msgbatch_01H7CELkBRJk7U3W48XFZDkK",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_028.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_028.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_029.jsonl": {
+    "batch_id": "msgbatch_01HPTHJ3Rs6auT88PoHLF1uH",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_029.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_029.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_030.jsonl": {
+    "batch_id": "msgbatch_01CzkTt6k5wyZgN1QxicHewG",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_030.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_030.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_031.jsonl": {
+    "batch_id": "msgbatch_01FeWWzqrGsVNpYoFtHXi2WK",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_031.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_031.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_032.jsonl": {
+    "batch_id": "msgbatch_01QWdLvWtu9F2rG96hf36EEZ",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_032.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_032.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_033.jsonl": {
+    "batch_id": "msgbatch_013st7zUfEXdMm23LSVmqYFR",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_033.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_033.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_034.jsonl": {
+    "batch_id": "msgbatch_013JLiVHPu1qtGh12NFichw7",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_034.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_034.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_035.jsonl": {
+    "batch_id": "msgbatch_01RjQZ6V3H9DGMMFwn65gByd",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_035.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_035.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_036.jsonl": {
+    "batch_id": "msgbatch_01DB9ug7YMBG3W5h9qbKRLDH",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_036.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_036.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_037.jsonl": {
+    "batch_id": "msgbatch_018tV8XZmhj4VAYQnL64jNwv",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_037.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_037.jsonl",
+    "n_requests": 100,
+    "status": "completed"
+  },
+  "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_038.jsonl": {
+    "batch_id": "msgbatch_01XMDnRhhx3jp4KABi2tgcwP",
+    "provider": "anthropic",
+    "input_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/batches/chunk_038.jsonl",
+    "output_file": "/home/malam/projects/benchmarks/ai-safety-sept26/src/09_llm_as_judge/Sonnet-Judge-3K-Data/_judge_state/anthropic/claude_sonnet_4_6/claude_haiku_4_5_2b3a24aa/chunk_results/results_038.jsonl",
+    "n_requests": 20,
+    "status": "completed"
+  }
+}
